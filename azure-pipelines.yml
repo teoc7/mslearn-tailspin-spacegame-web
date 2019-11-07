@@ -1,5 +1,8 @@
 trigger:
-- '*'
+ branches:
+   include:
+     - master
+     - release/*
 
 pool:
   vmImage: 'ubuntu-16.04'
